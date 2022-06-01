@@ -1,0 +1,14 @@
+service: undici-test
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  hello:
+    # optimize: false
+    handler: handler.hello
+
+plugins:
+  - serverless-plugin-optimize

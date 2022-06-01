@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "invoke": "sls invoke local --function hello"
+  },
+  "dependencies": {
+    "serverless-plugin-optimize": "^4.2.1-rc.1",
+    "undici": "^5.4.0"
+  }
+}
